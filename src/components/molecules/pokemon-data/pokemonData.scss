@@ -1,0 +1,61 @@
+.Pokedata-table{
+
+    min-height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.Pokedata-item{
+    
+    width: 50%;
+    line-height: .5rem;
+   }
+.Pokedata-unit{
+    font-size: 1rem;
+}
+
+.Coloring-h{
+    color: gray;
+    font-weight: 600;
+}
+
+@media all and (max-width: 600px ){
+
+    .Pokedata-item{
+    
+        width: 100%;
+        line-height: .1rem;
+        display: flex;
+       }
+       
+       .Pokedata-unit{
+       
+           width: 50%;
+       }
+       
+
+    .Pokedata-table{
+        margin-top: 0;
+    }
+
+
+}
+
+@media all and (min-width: 600px) {
+
+    
+    .Pokedata-table{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .Pokedata-item{
+        margin-top: 3rem;
+    }
+    
+}

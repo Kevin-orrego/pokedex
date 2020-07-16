@@ -1,0 +1,39 @@
+.PagButton{
+    width: 3.7rem;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: rgba(151, 2, 2, 0.925);
+    border-radius: 1rem;
+    border: none;   
+}
+
+.PagButton :hover {
+    transition: background-color .5s;
+    background-color: rgb(202, 8, 8);
+    border-radius: 1rem;
+    
+}
+
+.Pokemon-button-image{
+    width: 100%;
+   height: auto;
+   
+}
+
+@supports(object-fit: cover){
+    .Pokemon-button-image{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+@media all and (max-width: 600px){
+
+    .PagButton{
+        width: 5rem;
+        height: 5rem;
+        
+    }
+
+}

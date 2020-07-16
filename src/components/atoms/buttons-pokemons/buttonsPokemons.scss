@@ -1,0 +1,58 @@
+.Footer-pokeButton {
+
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: rgb(190, 190, 190);
+    border-radius: 1rem;
+    border: none;
+
+}
+button.Footer-pokeButton :hover {
+
+    background-color: rgb(133, 133, 133);
+    border-radius: 1rem;
+    transition: background-color .5s;
+
+}
+
+.Pokemon-button-image{
+    width: 100%;
+   height: auto;
+   
+}
+
+
+
+
+@supports(object-fit: cover){
+    .Pokemon-button-image{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
+@media all and (max-width: 600px){
+
+
+    .Footer-item{
+        
+        width:30%;
+        padding-bottom: .5rem;
+        
+
+    }
+    
+
+}
+
+@media all and (min-width: 600px){
+
+
+    .Footer-item{
+        padding-top: .7rem;
+    }
+
+
+}
