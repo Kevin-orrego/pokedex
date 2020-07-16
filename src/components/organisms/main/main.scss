@@ -1,0 +1,138 @@
+.Pokedex-main{
+     
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: rgb(141, 141, 141);
+    
+
+}
+
+.pokedex-aside{
+    
+    flex-grow: 1;
+    flex-basis: 100%;
+    min-width: 50%;
+    padding: .5rem;
+    margin:1rem;
+    background-color: rgb(141, 141, 141);
+
+    
+}
+
+
+
+.Pokemon{
+
+    
+    
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.Pokemon-name{
+
+    min-width: 80%;
+    max-width: 80%;
+    padding: .5rem;
+    background-color: rgb(229, 229, 226);
+    border-radius: .3rem;
+}
+
+.Pokemon-type-icon{
+    max-width: 1.5rem
+}
+
+.Pokemon-image{
+
+    min-width: 320px;
+    max-width: 100%;
+    
+}
+
+.Pokedata-table{
+
+    min-height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.Pokedata-item{
+    
+    width: 50%;
+    line-height: .5rem;
+   }
+.Pokedata-unit{
+    font-size: 1rem;
+}
+
+.Coloring-h{
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+@media all and (max-width: 600px ){
+
+    .Pokedata-item{
+    
+        width: 100%;
+        line-height: .1rem;
+        display: flex;
+       }
+       
+       .Pokedata-unit{
+       
+           width: 50%;
+       }
+       .pokedex-aside{
+        flex: 1 1 auto;
+    }
+
+    .Pokedata-table{
+        margin-top: 0;
+    }
+
+    .Pokemon{
+        margin-bottom: 0;
+    }
+
+}
+
+@media all and (min-width: 600px) {
+
+    .pokedex-aside{
+        flex: 1 1 auto;
+    }
+    .Pokedata-table{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .Pokedata-item{
+        margin-top: 3rem;
+    }
+    .Pokemon{
+        margin-left: 3rem;
+    }
+    .Pokemon-image{
+
+        
+        max-height: 360px;
+        
+    }
+}

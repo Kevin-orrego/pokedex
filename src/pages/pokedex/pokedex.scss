@@ -1,0 +1,65 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 0;
+    background-color: rgb(160, 160, 160);
+    align-items: center;
+    justify-content: baseline;
+}
+
+.pokedex-dad {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: .5rem; 
+    max-width: 1200px;
+    max-height: 500px;
+    border-radius: 1rem;
+    
+
+}
+
+.pokedex-header{
+
+    flex-grow: 1;
+    flex-basis: 100%;
+    padding: .5rem;
+    height: 2rem;
+    background: rgb(104, 104, 104); 
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;  
+    font-size: 1rem; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    
+}
+ h2.title{
+        margin:.5rem;
+ }
+
+
+.icon-img{
+    max-width: 1.5rem ;
+}
+ 
+
+
+
+@media all and (max-width: 600px){
+    
+    .pokedex-header{
+        text-align: center;
+    }
+
+    
+    
+}
+
+
+
+

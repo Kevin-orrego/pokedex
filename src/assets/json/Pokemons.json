@@ -1,0 +1,224 @@
+[{
+    "number" : "006",
+    "name" : "CHARIZARD",
+    "level" : "100",
+    "type" : "FIRE",
+    "ability" : "FLAMES",
+    "height" : "1.7",
+    "weight" : "90.5",
+    "image" : "charizard.png"
+
+},
+
+{
+    "number" : "024",
+    "name" : "ARBOK",
+    "level" : "100",
+    "type" : "POISON",
+    "ability" : "INTIMIDATE",
+    "height" : "3.5",
+    "weight" : "65.0",
+    "image" : "arbok.png"
+
+},
+
+{
+    "number" : "107",
+    "name" : "HITMONCHAN",
+    "level" : "100",
+    "type" : "FIGHTING",
+    "ability" : "IRON FIST",
+    "height" : "1.4",
+    "weight" : "50.2",
+    "image" : "hitmonchan.png"
+
+},
+{
+    "number" : "099",
+    "name" : "KINGLER",
+    "level" : "100",
+    "type" : "WATER",
+    "ability" : "SHELL ARMOR",
+    "height" : "1.3",
+    "weight" : "60.0",
+    "image" : "kingler.png"
+
+},
+{
+    "number" : "082",
+    "name" : "MAGNETON",
+    "level" : "100",
+    "type" : "ELECTRIC || STEEL",
+    "ability" : "MAGNET PULL",
+    "height" : "1.O",
+    "weight" : "60.0",
+    "image" : "magneton.png"
+
+},
+{
+    "number" : "078",
+    "name" : "RAPIDASH",
+    "level" : "100",
+    "type" : "FIRE",
+    "ability" : "FLASH FIRE",
+    "height" : "1.7",
+    "weight" : "95.0",
+    "image" : "rapidash.png"
+
+},
+{
+    "number" : "076",
+    "name" : "GOLEM",
+    "level" : "100",
+    "type" : "ROCK || GROUND",
+    "ability" : "ROCK HEAD",
+    "height" : "1.4",
+    "weight" : "300.0",
+    "image" : "golem.png"
+
+},
+{
+    "number" : "071",
+    "name" : "VICTREEBEL",
+    "level" : "100",
+    "type" : "GRASS || POISON",
+    "ability" : "CHLOROPHYLL",
+    "height" : "1.7",
+    "weight" : "15.5",
+    "image" : "victreebel.png"
+
+},
+{
+    "number" : "068",
+    "name" : "MACHAMP",
+    "level" : "100",
+    "type" : "FIGHTING",
+    "ability" : "GUTS",
+    "height" : "1.6",
+    "weight" : "130.0",
+    "image" : "machamp.png"
+
+},
+{
+    "number" : "065",
+    "name" : "ALAKAZAM",
+    "level" : "100",
+    "type" : "PSYCHIC",
+    "ability" : "INNER FOCUS",
+    "height" : "1.5",
+    "weight" : "48.0",
+    "image" : "alakazam.png"
+
+},
+{
+    "number" : "062",
+    "name" : "POLIWRATH",
+    "level" : "100",
+    "type" : "WATER || FIGHTING",
+    "ability" : "DAMP",
+    "height" : "1.3",
+    "weight" : "54.0",
+    "image" : "poliwrath.png"
+
+},
+{
+    "number" : "053",
+    "name" : "PERSIAN",
+    "level" : "100",
+    "type" : "NORMAL",
+    "ability" : "LIMBER",
+    "height" : "1.0",
+    "weight" : "32.0",
+    "image" : "persian.png"
+
+},
+{
+    "number" : "051",
+    "name" : "DUGTRIO",
+    "level" : "100",
+    "type" : "GROUND",
+    "ability" : "SAND VEIL",
+    "height" : "0.7",
+    "weight" : "33.3",
+    "image" : "dugtrio.png"
+
+},
+{
+    "number" : "038",
+    "name" : "NINETALES",
+    "level" : "100",
+    "type" : "FIRE",
+    "ability" : "FLASH FIRE",
+    "height" : "1.1",
+    "weight" : "99.9",
+    "image" : "ninetales.png"
+
+},
+{
+    "number" : "026",
+    "name" : "RAICHU",
+    "level" : "100",
+    "type" : "ELECTRIC",
+    "ability" : "STATIC",
+    "height" : "O.8",
+    "weight" : "03.0",
+    "image" : "raichu.png"
+
+},
+{
+    "number" : "150",
+    "name" : "MEWTWO",
+    "level" : "100",
+    "type" : "PSYCHIC",
+    "ability" : "PRESSURE",
+    "height" : "2.0",
+    "weight" : "122.0",
+    "image" : "mewtwo.png"
+
+},
+{
+    "number" : "105",
+    "name" : "MAROWAK",
+    "level" : "100",
+    "type" : "GROUND",
+    "ability" : "ROCK HEAD",
+    "height" : "1.0",
+    "weight" : "45.0",
+    "image" : "marowak.png"
+
+},
+{
+    "number" : "096",
+    "name" : "DROWZEE",
+    "level" : "100",
+    "type" : "PSYCHIC",
+    "ability" : "INSOMNIA",
+    "height" : "1.0",
+    "weight" : "32.4",
+    "image" : "drowzee.png"
+
+},
+{
+    "number" : "089",
+    "name" : "MUK",
+    "level" : "100",
+    "type" : "POISON",
+    "ability" : "STENCH",
+    "height" : "1.2",
+    "weight" : "30.0",
+    "image" : "muk.png"
+
+},
+{
+    "number" : "059",
+    "name" : "ARCANINE",
+    "level" : "100",
+    "type" : "FIRE",
+    "ability" : "FIRE FLASH",
+    "height" : "1.9",
+    "weight" : "155.0",
+    "image" : "arcanine.png"
+
+}
+
+]
